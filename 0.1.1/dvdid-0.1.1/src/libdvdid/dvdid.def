@@ -1,0 +1,11 @@
+; $Id: dvdid.def 1743 2009-03-21 20:04:26Z chris $
+LIBRARY dvdid.dll
+EXPORTS
+dvdid_calculate	@1
+dvdid_calculate2	@2
+dvdid_hashinfo_create	@3
+dvdid_hashinfo_addfile	@4
+dvdid_hashinfo_set_vmgi	@5
+dvdid_hashinfo_set_vts01i	@6
+dvdid_hashinfo_init	@7
+dvdid_hashinfo_free	@8
